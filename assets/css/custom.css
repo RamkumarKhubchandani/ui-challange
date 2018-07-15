@@ -1,0 +1,84 @@
+.header-logo{
+   width: 150px;
+   height: 49px;
+   margin-top: -13px;
+}
+.navbar-inverse{
+    background-color: white;
+    border: solid 1px #dbdbdb;
+    height: 55px;
+}
+.navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover{
+   color : black;
+   
+}
+body > nav > div > ul > li.phone > a > span:nth-child(2){
+   text-decoration: underline;
+}
+body > div > div > center > div > p:nth-child(1),body > div > div > center > div > p:nth-child(2){
+   font-size : 28px;
+}
+body > div > div > center > div > p:nth-child(3){
+   font-size : 20px;
+   opacity : 0.8;
+}
+.center-content{
+  border: solid 1px #dbdbdb;
+  height : 200px;
+}
+.img-part{
+  margin-top : 10px;
+}
+.no-pad{
+  padding : 0 !important;
+  border: none;
+  outline: none;
+  border-top: none !important;
+}
+.no-right-pad{
+  padding-right : 0;
+}
+.no-left-pad{
+  padding-left : 0;
+}
+.download_source{
+    background-color: #ff5200;
+    color: white;
+    border: none;
+    margin-top: 15px;
+}
+.download_number{
+   padding-left : 10px;
+   opacity : 0.8;
+}
+.table-img{
+  height : 20px;
+  width : 20px;
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+.servise{
+  display : none;
+}
+  
+}
+
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  //CSS
+  
+}
+
+
